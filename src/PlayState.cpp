@@ -299,7 +299,6 @@ void PlayState::unfixedUpdate() {
 }
 
 void PlayState::update() {
-	targetFixedFps = 0.5f;
 	if(state == "playing") {
 		if(isPaused) return;
 		framesSinceBouncing++;
